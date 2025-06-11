@@ -1,1 +1,4 @@
-toml<br>name = "klaviyo-mcp-server"<br>main = "src/index.ts" # or .js if you are using JavaScript<br>compatibility_date = "2024-12-01"<br>compatibility_flags = ["nodejs_compat"] # lets Node APIs like ‘crypto’ work<br>
+name = "klaviyo-mcp-server"
+main = "src/index.ts"            # adjust if your entry file is .js
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
