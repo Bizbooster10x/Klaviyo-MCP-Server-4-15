@@ -1,4 +1,7 @@
-name = "klaviyo-mcp-server-1"
-main = "src/index.js"            # adjust if your entry file is .js
-compatibility_date = "2024-12-01"
+name                = "klaviyo-mcp-server-1"
+main                = "src/index.js"         # keep pointing at the JS file
+compatibility_date  = "2024-12-01"
 compatibility_flags = ["nodejs_compat"]
+
+[build.upload]
+format = "modules"          # 👈 forces Module-Worker bundling
